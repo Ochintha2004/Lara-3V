@@ -5,15 +5,15 @@ function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
 }
 module.exports = {
-SESSION_ID: process.env.SESSION_ID || "YOUR_SESSION_ID", // Add your session id
+SESSION_ID: process.env.SESSION_ID || "nMoF1TiZ#1Aa3pc_kvPyafY7TdUnZF23LP4dYiUU2Aau0j89t5ik", // Add your session id
 PREFIX: process.env.PREFIX || ".",
-OWNER_NUMBER: process.env.OWNER_NUMBER || "94779062397",
-DEV: process.env.DEV || "94779062397",
+OWNER_NUMBER: process.env.OWNER_NUMBER || "94740878044",
+DEV: process.env.DEV || "94740848044",
 AUTO_READ_STATUS: process.env.AUTO_READ_STATUS || "true",
 AUTO_STATUS_REACT: process.env.AUTO_STATUS_REACT || "true",
 AUTO_STATUS_REPLY: process.env.AUTO_STATUS_REPLY || "false",
 STATUS_REPLY_MSG: process.env.STATUS_REPLY_MSG || "*_`ᴀᴜᴛᴏ ꜱᴛᴀᴛᴜꜱ ᴊᴜꜱᴛ ɴᴏᴡ ꜱᴇᴇɴ ʙʏ ʟᴀʀᴀ ᴍᴅ`_* 💃🏻",
-MODE: process.env.MODE || "public",  //public | private | inbox | group
+MODE: process.env.MODE || "public""""  //public | private | inbox | group
 AUTO_VOICE: process.env.AUTO_VOICE || "true",
 AUTO_STICKER: process.env.AUTO_STICKER || "false",
 AUTO_REPLY: process.env.AUTO_REPLY || "true",    
